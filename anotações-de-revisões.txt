@@ -1,0 +1,48 @@
+##Oque eu  aprendi sobre html5
+
+SEMANTICAS
+    <section> REPRESENTA UMA SESSÃO GENERICA DE CONMTEUDOS
+    <header> CABEÇALHO DE PAGINAS 
+    <article>  CONTEUDO RELEVANTE DA PAGINA
+    <aside>   CONTEUDO RELACIONADOS
+    <footer> RODA PÉ DA PÁGINA
+    
+    <h1> - <h6> SÃO TITULOS
+    
+    TAGS PARA TEXTOS
+    <p>  REPRESENTA UM PARAGRAFO E AGREGA TEXTOS E QUALQUER CONTEUDO DIGITAL
+    
+    TAGS PARA LINKS
+    
+   <A> link</A>
+   <A href="link"> nome</a> 
+   target="_blank" PARA ABRIR UM NOVO GUIA
+   
+   <IMG>
+   
+   <img src="imagem">
+   <img alt="imagem"> PARA ADICIONAR UM NOME A IMAGEM CASO ELA SAIA DO AR
+   
+   WIDTH="100"  PARA DEFINIR TAMANHO
+   HEIGHT="100"
+   
+   LISTAS 
+   <UL>
+   <OL> -> LISTA ORDENADAS COM NUMEROS
+   <LI> SEPARA DE ITEM DA LISTA
+   
+   
+   CSS 
+   
+   #ID X  CLASS .
+   
+   ID SÓ É USADO APENAS UMA VEZ DENTRO DE UMA PÁGINA 
+   EXEMPLOS <H1 ID="TITULO"> NOME </H1>
+   
+   # DEFINE ID
+   . DEFINE CLASS
+   
+   <H2 CLASS= "TITULO2"> NOME</H2>
+   
+   FONT SIZE -> TAMANHO DA  FONTE
+   FONT STYLE -> ESTILO DA FONTE
