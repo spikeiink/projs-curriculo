@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+
+    <style>
+.container{
+    height: 400px;
+    max-width: 300px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.item{
+    background-color:  orange;
+    padding: o 5px ;
+    flex: 1;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+.stretch{
+    align-content: stretch;
+}
+.center{
+    align-content: center;
+}
+.start{
+    align-content: flex-start;
+}
+.end{
+    align-content:flex-end;
+}
+.bet{
+    align-content: space-between;
+}
+.around{
+align-content: space-around;}
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container strectch">
+        <div class="item">Este artigo é sobre a enciclopédia online</div>
+        <div class="item">Para uma introdução não</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item">Para uma introdução </div>
+        <div class="item">Para uma  voltada para visitantes</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item"> enciclopédica voltada para visitantes</div>
+    </div>
+    <p>center</p>
+
+    <div class="container center">
+        <div class="item">Este artigo é sobre a enciclopédia online</div>
+        <div class="item">Para uma introdução não</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item">Para uma introdução </div>
+        <div class="item">Para uma  voltada para visitantes</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item"> enciclopédica voltada para visitantes</div>
+    </div>
+    <p>Flex-Start</p>
+    <div class="container start">
+        <div class="item">Este artigo é sobre a enciclopédia online</div>
+        <div class="item">Para uma introdução não</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item">Para uma introdução </div>
+        <div class="item">Para uma  voltada para visitantes</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item"> enciclopédica voltada para visitantes</div>
+    </div>
+    <p>Flex-End</p>
+    <div class="container end">
+        <div class="item">Este artigo é sobre a enciclopédia online</div>
+        <div class="item">Para uma introdução não</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item">Para uma introdução </div>
+        <div class="item">Para uma  voltada para visitantes</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item"> enciclopédica voltada para visitantes</div>
+    </div>
+    <p>space-bet</p>
+    <div class="container bet">
+        <div class="item">Este artigo é sobre a enciclopédia online</div>
+        <div class="item">Para uma introdução não</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item">Para uma introdução </div>
+        <div class="item">Para uma  voltada para visitantes</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item"> enciclopédica voltada para visitantes</div>
+    </div>
+    <p>space-around</p>
+    <div class="container around">
+        <div class="item">Este artigo é sobre a enciclopédia online</div>
+        <div class="item">Para uma introdução não</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item">Para uma introdução </div>
+        <div class="item">Para uma  voltada para visitantes</div>
+        <div class="item">Para uma introdução não enciclopédica </div>
+        <div class="item"> enciclopédica voltada para visitantes</div>
+    </div>
+</body>
+</html>

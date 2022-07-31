@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos- aling Items</title>
+    <style>
+        .container{
+                max-width: 350px;
+                border: 1px solid black;
+                display: flex;
+
+        }
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+        
+        
+        .center{
+            align-items: center;
+        }
+        .st{ align-items: stretch;}
+
+        .start{
+            align-items: flex-start;
+        }
+        .end{
+            align-items: flex-end;
+        }
+        .column{
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+        <p>center</p>
+    <section class="container center flex">
+        <div class="item">item 1</div>
+        <div class="item">lorem</div>
+        <div class="item">item 3</div>
+    </section>
+
+    <p>strectch</p>
+    <section class="container st">
+        <div class="item">item 1</div>
+        <div class="item">todos itens crescem juntos</div>
+        <div class="item">item 3</div>
+    </section>
+    <p>flex-start</p>
+    <section class="container start">
+        <div class="item">item 1</div>
+        <div class="item"> item que cresce só que sozinho</div>
+        <div class="item">item 3</div>
+    </section>
+
+    <p>flex-end</p>
+    <section class="container end">
+        <div class="item">item 1</div>
+        <div class="item">item que cresce pelo final </div>
+        <div class="item">item 3</div>
+    </section>
+
+    <h1>Column</h1>
+
+    <p>flex-start</p>
+    <section class="container start column ">
+        <div class="item">item 1</div>
+        <div class="item"> item que cresce só que sozinho</div>
+        <div class="item">item 3</div>
+    </section>
+
+    <p>flex-end</p>
+    <section class="container end column">
+        <div class="item">item 1</div>
+        <div class="item">item que cresce pelo final </div>
+        <div class="item">item 3</div>
+    </section>
+
+    <p>center</p>
+    <section class="container center column">
+        <div class="item">item 1</div>
+        <div class="item">lorem</div>
+        <div class="item">item 3</div>
+    </section>
+
+
+</body>
+</html>

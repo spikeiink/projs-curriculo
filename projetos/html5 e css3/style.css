@@ -1,0 +1,24 @@
+.subtitulo, .titulofinal {
+    color: rgb(104, 12, 12);
+}
+
+body{
+    background-color: rgb(21, 105, 179);
+}
+#titulo{
+font-size: 60px;
+font-style: italic;
+color: rgb(0, 0, 0);
+}
+
+    .post{ 
+        background-color: rgb(241, 234, 234);
+        padding: 20px;
+        border: 4px solid black
+        ;
+        margin: 10px; color: rgb(1, 68, 46);
+    }
+    .perfil{
+        border-radius: 50%;
+        border: solid black 2px;
+    }
