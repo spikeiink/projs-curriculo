@@ -46,3 +46,24 @@ SEMANTICAS
    
    FONT SIZE -> TAMANHO DA  FONTE
    FONT STYLE -> ESTILO DA FONTE
+   
+   OQUE EU APRENDI LET, VAR E CONST
+   
+    var e let tem escopos diferentes
+    let só vale dentro de blocos
+    
+    constante é declarada em SNAKE_UPPER_CASE
+    usada em escopo de bloco
+    não faz hosting
+    
+        ARRAYS
+        .push adiciona na array
+        .pop tira da array o ultimo elemento
+        .shift tira da array o primeiro element
+        .unshift adiciona no começo da lista 
+        
+            OBJETS
+        Estrtura tipo "chave e valor" 
+        let person= {
+        name:'jonh',    '   valores
+        age:20};
